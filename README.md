@@ -1,17 +1,35 @@
+<div align="center">
+
 # Привет! Я Владислав 👋
 
-Студент, изучаю разработку на **Python**, **базы данных** и **машинное обучение**. Здесь — основы будущей ВКР, учебные проекты Яндекс Практикума и лабораторные работы университета.
+**Python-разработчик · базы данных · машинное обучение**
+
+Студент ТулГУ (ИПМКН). Пишу backend на Django и FastAPI, проектирую базы данных в PostgreSQL и MS SQL Server, готовлю ВКР по системам поддержки принятия решений на машинном обучении.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+<br>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![MS SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+</div>
+
+## ⚡ Коротко
+
+- 🎓 **2 проекта — основа ВКР**: СППР на машинном обучении, от обследования и ТЗ по ГОСТ до прототипа модели.
+- 🏦 **Курс Python от практика из Сбера** — 8 лабораторных у бывшего руководителя направления ML в Сбербанке: от Git до FastAPI, SQLAlchemy + Alembic и MVC + Repository, с автотестами и CI.
+- 🚀 **7 проектов Яндекс Практикума**: Django, DRF, JWT, React, Docker, CI/CD через GitHub Actions.
+- 🗄️ **3 проекта по базам данных**: PostgreSQL, PL/pgSQL, T-SQL; 8 лабораторных по администрированию с отчётами и единым сценарием запуска.
 
 ## 🎓 Основа ВКР: системы поддержки принятия решений на машинном обучении
 
@@ -22,6 +40,38 @@
 | [credit-scoring-dss](https://github.com/DarkSwordman999/credit-scoring-dss) | СППР оценки кредитоспособности физических лиц: стоп-факторы, долговая нагрузка, вероятность дефолта (PD), объяснение факторов; прототип сравнивает логистическую регрессию и градиентный бустинг | Python, pandas, scikit-learn, IDEF0, UML |
 | [flower-demand-planning](https://github.com/DarkSwordman999/flower-demand-planning) | планирование закупок и продаж цветов: партионный учёт по срокам, прогноз спроса с учётом праздников, заказ поставщику по модели newsvendor, уценка | Python, pandas, scikit-learn, IDEF0, UML |
 
+## 🏦 Курс Python от практика из Сбера — 8 лабораторных
+
+> **Преподаватель — Алексей Васильевич Цымлов** ([@Tsymlov](https://github.com/Tsymlov))
+> - руководил направлением в **Сбербанке** — департамент экспериментальных систем машинного обучения;
+> - инженер в коммерческой разработке с 2006 года: мобильные продукты для **Сбера, Kaspersky, Яндекса и Т-Банка**;
+> - основатель и генеральный директор ИТ-компании «Синтропик»; преподаёт в ТулГУ ([о преподавателе](https://syntropic.ru/rukovoditel.html)).
+
+Курс построен как в индустрии: каждая работа — отдельный репозиторий с заданиями средней и повышенной сложности, README с разбором решения, автотестами (`unittest` / `pytest`) и проверкой кода `flake8` в **GitHub Actions** (lab2–lab8). Путь — от Git и основ языка до веб-приложения на FastAPI, ORM с миграциями и слоистой архитектуры MVC + Repository.
+
+| № | Репозиторий | Что сделано | Технологии |
+|---|---|---|---|
+| 1 | [lab1_Git](https://github.com/DarkSwordman999/lab1_Git) | консольный Todo List; ветки `main` / `develop`, слияния, работа с GitHub | Git, GitHub |
+| 2 | [lab2_Python](https://github.com/DarkSwordman999/lab2_Python) | структурное программирование: словарь квадратов, Фибоначчи, переворот строки, сериализация в JSON, консольное меню | Python, json, unittest |
+| 3 | [lab3_OOP](https://github.com/DarkSwordman999/lab3_OOP) | ООП: класс-итератор `FloatRange`, «Студент», счётчик, система заказов «Товар — Корзина — Заказ»; разработка по TDD | Python, unittest — 37 тестов |
+| 4 | [lab4_Functional](https://github.com/DarkSwordman999/lab4_Functional) | функциональный стиль: `map` / `filter`, декоратор замера времени, собственный `reduce`, каррирование | Python, functools, unittest |
+| 5 | [lab5_GUI](https://github.com/DarkSwordman999/lab5_GUI) | графические интерфейсы: окна на Tkinter и PyQt5, диалог выбора файла, локальный чат, игра «Кликер» с сохранением прогресса | Tkinter, PyQt5, unittest |
+| 6 | [lab6_Web](https://github.com/DarkSwordman999/lab6_Web) | веб-приложение: REST API задач, страницы на Jinja2, регистрация и вход (хеширование паролей, подписанные токены), Swagger | FastAPI, Pydantic, Jinja2, pytest — 37 тестов |
+| 7 | [lab7_Databases](https://github.com/DarkSwordman999/lab7_Databases) | учёт студентов, курсов и оценок: sqlite3, JOIN-отчёты, ORM-модель, 4 миграции схемы | sqlite3, SQLAlchemy, Alembic, pytest — 32 теста |
+| 8 | [lab8_Ecosystem](https://github.com/DarkSwordman999/lab8_Ecosystem) | Booktracker — учёт прочитанных книг с подгрузкой по ISBN из Open Library; архитектура MVC, слой сервисов, шаблон Repository | Poetry, requests, argparse, pytest — 44 теста |
+
+## 🚀 Проекты Яндекс Практикума
+
+| Проект | Описание | Стек |
+|---|---|---|
+| [kittygram-final-ad](https://github.com/DarkSwordman999/kittygram-final-ad) | fullstack-приложение в Docker, CI/CD через GitHub Actions | Django, React, Docker, GitHub Actions |
+| [api-final-yatube-ad](https://github.com/DarkSwordman999/api-final-yatube-ad) | API соцсети: посты, комментарии, группы, подписки, JWT | Django REST Framework, SimpleJWT |
+| [api_yatube](https://github.com/DarkSwordman999/api_yatube) | REST API для соцсети Yatube | Django REST Framework |
+| [django_sprint4](https://github.com/DarkSwordman999/django_sprint4) | Blogicum: регистрация, аутентификация, восстановление пароля | Django |
+| [django_sprint3](https://github.com/DarkSwordman999/django_sprint3) | Blogicum: модели, представления, шаблоны | Django |
+| [django_sprint1](https://github.com/DarkSwordman999/django_sprint1) | Blogicum: вёрстка ленты и страниц | HTML, Bootstrap 5 |
+| [the_snake](https://github.com/DarkSwordman999/the_snake) | игра «Змейка» | Pygame, pytest |
+
 ## 🗄️ Базы данных
 
 | Проект | Описание | Стек |
@@ -29,28 +79,3 @@
 | [DATABASE](https://github.com/DarkSwordman999/DATABASE) | ПАБД: база SALES — 8 лабораторных работ (сервер в сети, объёмная БД и индексы, пользовательские типы, резервное копирование, функции на C, перенос в MS SQL Server, представления и функции T-SQL, программы на C# и Python), защиты ЛР2 и ЛР3, отчёты, единый сценарий запуска | PostgreSQL, PL/pgSQL, T-SQL, C, C#, Python, PowerShell |
 | [VUZ-db](https://github.com/DarkSwordman999/VUZ-db) | база данных успеваемости вуза | PostgreSQL, PL/pgSQL |
 | [TAXI-db](https://github.com/DarkSwordman999/TAXI-db) | база данных службы такси: аналитические запросы, представления, функции, отчёты и GUI | PostgreSQL, PL/pgSQL, Python |
-
-## 🚀 Проекты Яндекс Практикума
-
-| Проект | Описание | Стек |
-|---|---|---|
-| [kittygram-final-ad](https://github.com/DarkSwordman999/kittygram-final-ad) | fullstack-приложение в Docker, CI/CD через GitHub Actions | Django, React, Docker, GitHub Actions |
-| [api-final-yatube-ad](https://github.com/DarkSwordman999/api-final-yatube-ad) | API соцсети: посты, комментарии, группы, подписки, JWT | Django REST Framework |
-| [api_yatube](https://github.com/DarkSwordman999/api_yatube) | REST API для соцсети Yatube | Django REST Framework |
-| [django_sprint4](https://github.com/DarkSwordman999/django_sprint4) | Blogicum: регистрация, аутентификация, восстановление пароля | Django |
-| [django_sprint3](https://github.com/DarkSwordman999/django_sprint3) | Blogicum: модели, представления, шаблоны | Django |
-| [django_sprint1](https://github.com/DarkSwordman999/django_sprint1) | Blogicum: вёрстка ленты и страниц | HTML, Bootstrap 5 |
-| [the_snake](https://github.com/DarkSwordman999/the_snake) | игра «Змейка» | Pygame, pytest |
-
-## 🐍 Лабораторные работы по Python
-
-| № | Репозиторий | Тема |
-|---|---|---|
-| 1 | [lab1_Git](https://github.com/DarkSwordman999/lab1_Git) | Git: ветки, слияния, GitHub |
-| 2 | [lab2_Python](https://github.com/DarkSwordman999/lab2_Python) | структурное программирование |
-| 3 | [lab3_OOP](https://github.com/DarkSwordman999/lab3_OOP) | ООП |
-| 4 | [lab4_Functional](https://github.com/DarkSwordman999/lab4_Functional) | функциональное программирование |
-| 5 | [lab5_GUI](https://github.com/DarkSwordman999/lab5_GUI) | визуальное программирование |
-| 6 | [lab6_Web](https://github.com/DarkSwordman999/lab6_Web) | веб-программирование, FastAPI |
-| 7 | [lab7_Databases](https://github.com/DarkSwordman999/lab7_Databases) | sqlite3, SQLAlchemy, Alembic |
-| 8 | [lab8_Ecosystem](https://github.com/DarkSwordman999/lab8_Ecosystem) | Poetry, requests, argparse, MVC |
