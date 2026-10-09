@@ -13,6 +13,7 @@
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![statsmodels](https://img.shields.io/badge/statsmodels-4051B5)
 <br>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![MS SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
@@ -27,6 +28,7 @@
 ## ⚡ Коротко
 
 - 🎓 **2 проекта — основа ВКР**: СППР на машинном обучении, от обследования и ТЗ по ГОСТ до прототипа модели.
+- 📊 **Анализ данных Росстата**: регрессионная модель социально-экономических показателей регионов России, R² до 0.735.
 - 🏦 **Курс Python от практика из Сбера** — 8 лабораторных у бывшего руководителя направления ML в Сбербанке: от Git до FastAPI, SQLAlchemy + Alembic и MVC + Repository, с автотестами и CI.
 - 🚀 **7 проектов Яндекс Практикума**: Django, DRF, JWT, React, Docker, CI/CD через GitHub Actions.
 - 🗄️ **3 проекта по базам данных**: PostgreSQL, PL/pgSQL, T-SQL; 8 лабораторных по администрированию с отчётами и единым сценарием запуска.
@@ -39,6 +41,12 @@
 |---|---|---|
 | [credit-scoring-dss](https://github.com/DarkSwordman999/credit-scoring-dss) | СППР оценки кредитоспособности физических лиц: стоп-факторы, долговая нагрузка, вероятность дефолта (PD), объяснение факторов; прототип сравнивает логистическую регрессию и градиентный бустинг | Python, pandas, scikit-learn, IDEF0, UML |
 | [flower-demand-planning](https://github.com/DarkSwordman999/flower-demand-planning) | планирование закупок и продаж цветов: партионный учёт по срокам, прогноз спроса с учётом праздников, заказ поставщику по модели newsvendor, уценка | Python, pandas, scikit-learn, IDEF0, UML |
+
+## 📊 Анализ данных
+
+| Проект | Описание | Стек |
+|---|---|---|
+| [socioeconomic-factors-analysis](https://github.com/DarkSwordman999/socioeconomic-factors-analysis) | как ВРП, инвестиции и доходы населения влияют на уровень бедности, продолжительность жизни и обеспеченность жильём в регионах России: данные сборника Росстата «Регионы России» (2025), очистка и объединение, описательная статистика, множественная регрессия; лучше всего объясняется уровень бедности (**R² = 0.735**), главный фактор его снижения — рост доходов | Python, pandas, scikit-learn, statsmodels |
 
 ## 🏦 Курс Python от практика из Сбера — 8 лабораторных
 
