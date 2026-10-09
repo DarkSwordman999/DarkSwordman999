@@ -17,6 +17,7 @@
 <br>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![MS SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
@@ -30,6 +31,7 @@
 - 🎓 **2 проекта — основа ВКР**: СППР на машинном обучении, от обследования и ТЗ по ГОСТ до прототипа модели.
 - 📊 **Анализ данных Росстата**: регрессионная модель социально-экономических показателей регионов России, R² до 0.735.
 - 🏦 **Курс Python от практика из Сбера** — 8 лабораторных у бывшего руководителя направления ML в Сбербанке: от Git до FastAPI, SQLAlchemy + Alembic и MVC + Repository, с автотестами и CI.
+- 💻 **2 курсовые на C++ и Windows API**: настольные приложения без фреймворков — ресторан «зал / кухня» и хранилище документации с триграммным поиском.
 - 🚀 **7 проектов Яндекс Практикума**: Django, DRF, JWT, React, Docker, CI/CD через GitHub Actions.
 - 🗄️ **3 проекта по базам данных**: PostgreSQL, PL/pgSQL, T-SQL; 8 лабораторных по администрированию с отчётами и единым сценарием запуска.
 
@@ -67,6 +69,15 @@
 | 6 | [lab6_Web](https://github.com/DarkSwordman999/lab6_Web) | веб-приложение: REST API задач, страницы на Jinja2, регистрация и вход (хеширование паролей, подписанные токены), Swagger | FastAPI, Pydantic, Jinja2, pytest — 37 тестов |
 | 7 | [lab7_Databases](https://github.com/DarkSwordman999/lab7_Databases) | учёт студентов, курсов и оценок: sqlite3, JOIN-отчёты, ORM-модель, 4 миграции схемы | sqlite3, SQLAlchemy, Alembic, pytest — 32 теста |
 | 8 | [lab8_Ecosystem](https://github.com/DarkSwordman999/lab8_Ecosystem) | Booktracker — учёт прочитанных книг с подгрузкой по ISBN из Open Library; архитектура MVC, слой сервисов, шаблон Repository | Poetry, requests, argparse, pytest — 44 теста |
+
+## 💻 Курсовые по программированию: C++ и Windows API
+
+Настольные приложения на C++17 с интерфейсом на чистом Windows API — без фреймворков и сторонних библиотек; объектно-ориентированная архитектура, UML-диаграммы, пояснительные записки по ГОСТ. Разработаны и собраны в Code::Blocks (MinGW-w64 GCC).
+
+| Проект | Описание | Стек |
+|---|---|---|
+| [restaurant-order-system](https://github.com/DarkSwordman999/restaurant-order-system) | ресторан: обработка заказов «зал / кухня» — столы и меню, заказ от создания до подачи, очередь кухни, статусы блюд, выручка за день | C++17, Windows API, Code::Blocks |
+| [construction-doc-storage](https://github.com/DarkSwordman999/construction-doc-storage) | строительство: хранилище проектной документации — реестр документов, триграммный поиск по фрагменту и с опечатками (сходство Жаккара), сохранение и загрузка | C++17, Windows API (Unicode), Code::Blocks |
 
 ## 🚀 Проекты Яндекс Практикума
 
