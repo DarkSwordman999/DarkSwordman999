@@ -121,6 +121,6 @@
 
 | Проект | Описание | Стек |
 |---|---|---|
-| [DATABASE](https://github.com/DarkSwordman999/DATABASE) | ПАБД: база SALES — 8 лабораторных работ (сервер в сети, объёмная БД и индексы, пользовательские типы, резервное копирование, функции на C, перенос в MS SQL Server, представления и функции T-SQL, программы на C# и Python), защиты ЛР2 и ЛР3, отчёты, единый сценарий запуска | PostgreSQL, PL/pgSQL, T-SQL, C, C#, Python, PowerShell |
+| [DATABASE](https://github.com/DarkSwordman999/DATABASE) | ПАБД: база SALES — 8 лабораторных работ (сервер в сети, объёмная БД и индексы, пользовательские типы, резервное копирование в rar-архив и восстановление из N-томного архива, функции на C, перенос в MS SQL Server, представления и функции T-SQL, программы на C# и Python), защиты ЛР2, ЛР3 и ЛР4, отчёты, единый сценарий запуска | PostgreSQL, PL/pgSQL, T-SQL, C, C#, Python, PowerShell |
 | [VUZ-db](https://github.com/DarkSwordman999/VUZ-db) | база данных успеваемости вуза | PostgreSQL, PL/pgSQL |
 | [TAXI-db](https://github.com/DarkSwordman999/TAXI-db) | база данных службы такси: аналитические запросы, представления, функции, отчёты и GUI | PostgreSQL, PL/pgSQL, Python |
