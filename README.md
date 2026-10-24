@@ -41,34 +41,6 @@
 - 🚀 **7 проектов Яндекс Практикума**: Django, DRF, JWT, React, Docker, CI/CD через GitHub Actions.
 - 🗄️ **3 проекта по базам данных**: PostgreSQL, PL/pgSQL, T-SQL; 8 лабораторных по администрированию с отчётами и единым сценарием запуска.
 
-## ⭐ Главные проекты
-
-### 🌷 [ФлораПлан](https://github.com/DarkSwordman999/flower-demand-planning) — планирование закупок и продаж цветов
-
-Срезанные цветы живут 5–14 дней, а спрос скачет перед 14 февраля, 8 марта и 1 сентября. Ошибка в закупке оборачивается списаниями или дефицитом. ФлораПлан помогает с этим:
-- ведёт **партионный учёт** со сроками реализации (FEFO);
-- строит **прогноз спроса** на 14 дней с квантилями P50 / P80 / P95 (Хольт–Уинтерс, метод Кростона, выбор модели по ошибке WAPE);
-- рассчитывает **заказ поставщику** по модели «продавца газет» и рекомендует уценку партий с истекающим сроком.
-
-- 🧱 **Устройство:** сервер на FastAPI, SQLAlchemy и Alembic, интерфейс на React + TypeScript, PostgreSQL. Роли от директора до флориста, обмен с «1С:Розница» и интернет-магазином.
-- 🐳 **Запуск:** Docker Compose (PostgreSQL, API, планировщик, nginx) или Windows-версия без установки из [Releases](https://github.com/DarkSwordman999/flower-demand-planning/releases).
-- ✅ **Проверки:** pytest на SQLite и PostgreSQL, сквозные тесты интерфейса на Playwright, нагрузочный тест на Locust. Всё это прогоняется в GitHub Actions при каждом push, а релиз собирается по тегу.
-- 📐 **Проектирование:** обследование, ТЗ по ГОСТ 34.602-89, IDEF0, IDEF3, UML. Ветка `ml` — задел ВКР с прогнозом на градиентном бустинге.
-
-`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `React` `TypeScript` `Docker` `Playwright` `GitHub Actions`
-
-### 🚕 [TAXI-db](https://github.com/DarkSwordman999/TAXI-db) — год поездок такси Чикаго в PostgreSQL
-
-| **730 000** поездок | **365** дней | **3 059** машин | **77** районов | **204** автопроверки |
-|:---:|:---:|:---:|:---:|:---:|
-
-- 📥 **Загрузка данных:** открытый API мэрии Чикаго (Chicago Data Portal) → очистка → PostgreSQL. Сбор поездок тоже запускается в GitHub Actions.
-- 📊 **SQL-аналитика:** 78 SQL-файлов, представления и функции на PL/pgSQL. Пример вывода из данных: каждая пятая поездка связана с аэропортом, и её средний чек **$57,93** против **$17,25** у остальных.
-- 🖥️ **GUI на tkinter**, документация и инструкция пользователя по ГОСТ 7.32, готовая база в [Releases](https://github.com/DarkSwordman999/TAXI-db/releases/latest).
-- ✅ **204 автопроверки** (186 сквозных и 18 модульных) и проверка кода в GitHub Actions.
-
-`PostgreSQL` `PL/pgSQL` `Python` `ETL` `tkinter` `GitHub Actions`
-
 ## 📜 Сертификаты
 
 <table>
@@ -101,7 +73,7 @@
 | Проект | Описание | Стек |
 |---|---|---|
 | [credit-scoring-dss](https://github.com/DarkSwordman999/credit-scoring-dss) | СППР оценки кредитоспособности физических лиц: стоп-факторы, долговая нагрузка, вероятность дефолта (PD), объяснение факторов; прототип сравнивает логистическую регрессию и градиентный бустинг | Python, pandas, scikit-learn, IDEF0, UML |
-| [flower-demand-planning](https://github.com/DarkSwordman999/flower-demand-planning) | ФлораПлан — планирование закупок и продаж цветов ([подробнее выше](#-флораплан--планирование-закупок-и-продаж-цветов)): от обследования и ТЗ до работающей системы; в ветке `ml` — прогноз спроса на градиентном бустинге | Python, FastAPI, React, scikit-learn, IDEF0, UML |
+| [flower-demand-planning](https://github.com/DarkSwordman999/flower-demand-planning) | ФлораПлан — планирование закупок и продаж цветов: партионный учёт по срокам (FEFO), прогноз спроса с квантилями P50 / P80 / P95, заказ поставщику по модели «продавца газет», уценка. От обследования и ТЗ по ГОСТ до работающей системы: веб-интерфейс, Docker, автотесты (pytest, Playwright, Locust) в GitHub Actions, релиз для Windows; в ветке `ml` — прогноз на градиентном бустинге | Python, FastAPI, React, TypeScript, PostgreSQL, Docker, IDEF0, UML |
 
 ## 📊 Анализ данных
 
@@ -162,4 +134,4 @@
 |---|---|---|
 | [DATABASE](https://github.com/DarkSwordman999/DATABASE) | ПАБД: база SALES — 8 лабораторных работ (сервер в сети, объёмная БД и индексы, пользовательские типы, резервное копирование в rar-архив и восстановление из N-томного архива, функции на C, перенос в MS SQL Server, представления и функции T-SQL, программы на C# и Python), защиты ЛР2, ЛР3 и ЛР4, отчёты, единый сценарий запуска | PostgreSQL, PL/pgSQL, T-SQL, C, C#, Python, PowerShell |
 | [VUZ-db](https://github.com/DarkSwordman999/VUZ-db) | база данных успеваемости вуза | PostgreSQL, PL/pgSQL |
-| [TAXI-db](https://github.com/DarkSwordman999/TAXI-db) | год реальных поездок такси Чикаго: загрузка из открытого API, SQL-аналитика, PL/pgSQL, GUI, 204 автопроверки ([подробнее выше](#-taxi-db--год-поездок-такси-чикаго-в-postgresql)) | PostgreSQL, PL/pgSQL, Python, GitHub Actions |
+| [TAXI-db](https://github.com/DarkSwordman999/TAXI-db) | год реальных поездок такси Чикаго (730 000): загрузка из открытого API мэрии, SQL-аналитика, представления и функции, GUI, документация по ГОСТ, 204 автопроверки в GitHub Actions | PostgreSQL, PL/pgSQL, Python, GitHub Actions |
