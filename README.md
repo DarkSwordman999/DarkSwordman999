@@ -4,7 +4,7 @@
 
 **Python-разработчик · базы данных · машинное обучение**
 
-Студент ТулГУ (ИПМКН). Пишу backend на Django и FastAPI, проектирую базы данных в PostgreSQL и MS SQL Server, готовлю ВКР по системам поддержки принятия решений на машинном обучении.
+Студент ТулГУ (ИПМКН). Пишу backend на FastAPI и Django и интерфейсы на React + TypeScript, проектирую базы данных в PostgreSQL и MS SQL Server, готовлю ВКР по системам поддержки принятия решений на машинном обучении, дообучаю языковые модели.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
@@ -20,6 +20,8 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
